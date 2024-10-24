@@ -7,11 +7,10 @@ public class JavaGit {
         ha hideg van viszek kabatot
         egyebkent nem viszek kabatot */
         final int HIDEG_HATAR = 10;
-        int fok = 7;
+        int fok = 17;
         boolean hidegVan = fok < HIDEG_HATAR;
-        String viszek = "viszek kabatot";
-        String nemViszek = "nem viszek kabatot";
-        String eredmeny = hidegVan ? viszek : nemViszek;
+        String eredmeny = "viszek kabatot";
+        eredmeny = hidegVan ? eredmeny : "nem" + eredmeny;
         System.out.println(eredmeny);
     }
     

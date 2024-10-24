@@ -10,7 +10,7 @@ public class JavaGit {
         int fok = 17;
         boolean hidegVan = fok < HIDEG_HATAR;
         String eredmeny = "viszek kabatot";
-        eredmeny = hidegVan ? eredmeny : "nem" + eredmeny;
+        eredmeny = hidegVan ? eredmeny : "nem " + eredmeny;
         System.out.println(eredmeny);
     }
     

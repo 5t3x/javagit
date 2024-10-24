@@ -9,10 +9,9 @@ public class JavaGit {
         final int HIDEG_HATAR = 10;
         int fok = 7;
         boolean hidegVan = fok < HIDEG_HATAR;
-        String eredmeny = "Nem viszek kabatot";
-        if (hidegVan) {
-        eredmeny = "Viszek kabatot";
-        }
+        String viszek = "viszek kabatot";
+        String nemViszek = "nem viszek kabatot";
+        String eredmeny = hidegVan ? viszek : nemViszek;
         System.out.println(eredmeny);
     }
     
